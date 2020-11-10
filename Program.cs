@@ -19,6 +19,7 @@ namespace COMP10066_Lab3
         public static double Average(List<double> x, bool incneg)
         {
             double s = Sum(x, incneg);
+            //Check Testing...
             int c = 0;
             for (int i = 0; i < x.Count; i++)
             {
